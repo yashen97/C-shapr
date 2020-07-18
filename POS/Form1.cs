@@ -1,0 +1,74 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace POS
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            cmb_items.Items.Clear();
+            cmb_items.Items.Add("Item 1");
+            cmb_items.Items.Add("Item 2");
+            cmb_items.Items.Add("Item 3");
+            cmb_items.Items.Add("Item 4");
+        }
+
+        private void cmb_items_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cmb_items.SelectedItem.ToString() == "Item 1")
+            {
+                txt_price.Text = "50";
+            }
+            else if (cmb_items.SelectedItem.ToString() == "Item 2")
+            {
+                txt_price.Text = "100";
+            }
+            else if (cmb_items.SelectedItem.ToString() == "Item 3")
+            {
+                txt_price.Text = "150";
+            }
+            else if (cmb_items.SelectedItem.ToString() == "Item 4")
+            {
+                txt_price.Text = "200";
+            }
+            else
+            {
+                txt_price.Text = "0";
+            }
+
+            //txt_qty.Text = "";
+            //txt_price.Text = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (txt_qty.Text.Length>0)
+            {
+                txt_total.Text = (Convert.ToInt32(txt_price.Text) * Convert.ToInt32(txt_qty)).ToString();
+            }
+        }
+    }
+}

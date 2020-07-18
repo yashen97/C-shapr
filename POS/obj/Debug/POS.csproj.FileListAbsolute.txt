@@ -1,0 +1,10 @@
+C:\Users\Yashen\source\repos\POS\POS\bin\Debug\POS.exe.config
+C:\Users\Yashen\source\repos\POS\POS\bin\Debug\POS.exe
+C:\Users\Yashen\source\repos\POS\POS\bin\Debug\POS.pdb
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.csprojAssemblyReference.cache
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.Form1.resources
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.Properties.Resources.resources
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.csproj.GenerateResource.cache
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.exe
+C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.pdb
