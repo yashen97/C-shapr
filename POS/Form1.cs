@@ -60,14 +60,23 @@ namespace POS
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string[] arr = new string[4];
+            arr[0] = cmb_items.SelectedItem.ToString();
+            arr[1] = txt_price.Text;
+            arr[2] = txt_qty.Text;
+            arr[3] = txt_total.Text;
 
+            ListViewItem litem = new ListViewItem(arr);
+            listView1.Items.Add(litem);
+
+            txt_sub.Text = (Convert.ToInt32(txt_sub.Text) + Convert.ToInt32(txt_total.Text)).ToString();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             if (txt_qty.Text.Length>0)
             {
-                txt_total.Text = (Convert.ToInt32(txt_price.Text) * Convert.ToInt32(txt_qty)).ToString();
+                txt_total.Text = (Convert.ToInt32(txt_price.Text) * Convert.ToInt32(txt_qty.Text)).ToString();
             }
         }
     }
