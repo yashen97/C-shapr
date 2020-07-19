@@ -8,3 +8,13 @@ C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.csproj.GenerateResource.cache
 C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
 C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.exe
 C:\Users\Yashen\source\repos\POS\POS\obj\Debug\POS.pdb
+D:\Git learn\C-shapr\POS\bin\Debug\POS.exe.config
+D:\Git learn\C-shapr\POS\bin\Debug\POS.exe
+D:\Git learn\C-shapr\POS\bin\Debug\POS.pdb
+D:\Git learn\C-shapr\POS\obj\Debug\POS.csprojAssemblyReference.cache
+D:\Git learn\C-shapr\POS\obj\Debug\POS.Form1.resources
+D:\Git learn\C-shapr\POS\obj\Debug\POS.Properties.Resources.resources
+D:\Git learn\C-shapr\POS\obj\Debug\POS.csproj.GenerateResource.cache
+D:\Git learn\C-shapr\POS\obj\Debug\POS.csproj.CoreCompileInputs.cache
+D:\Git learn\C-shapr\POS\obj\Debug\POS.exe
+D:\Git learn\C-shapr\POS\obj\Debug\POS.pdb
