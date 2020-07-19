@@ -21,7 +21,7 @@ namespace POS
         {
             cmb_items.Items.Clear();
             cmb_items.Items.Add("Item 1");
-            cmb_items.Items.Add("Item 2");
+            cmb_items.Items.Add("Item 2");   //combo box items 
             cmb_items.Items.Add("Item 3");
             cmb_items.Items.Add("Item 4");
         }
@@ -32,7 +32,7 @@ namespace POS
             {
                 txt_price.Text = "50";
             }
-            else if (cmb_items.SelectedItem.ToString() == "Item 2")
+            else if (cmb_items.SelectedItem.ToString() == "Item 2")   //Prices index
             {
                 txt_price.Text = "100";
             }
