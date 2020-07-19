@@ -62,7 +62,7 @@ namespace POS
         {
             string[] arr = new string[4];
             arr[0] = cmb_items.SelectedItem.ToString();
-            arr[1] = txt_price.Text;
+            arr[1] = txt_price.Text;                           //array passed to ListViewItem obj
             arr[2] = txt_qty.Text;
             arr[3] = txt_total.Text;
 
